@@ -1,0 +1,3 @@
+configuration {
+	theme: "/home/kaan/.config/rofi/themes/nord-center.rasi";
+}

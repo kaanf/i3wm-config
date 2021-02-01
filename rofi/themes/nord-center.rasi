@@ -1,0 +1,42 @@
+/**
+ * D-Nord : Rofi dmenu theme using the nord pallette
+ */
+* {
+    background-color:      rgba ( 59, 66, 82, 0 % );
+    text-color:            rgba ( 255, 255, 255, 100 % );
+    font:            "SF Pro Display 10";
+}
+
+#window {
+    transparency: "real";
+    anchor:     south;
+    location:   south;
+    width:      99.5%;
+    padding:    5px;
+    children:   [ horibox ];
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+
+#listview {
+    layout:     horizontal;
+    spacing:    2px;
+    lines:      100;
+}
+
+#entry {
+    expand:     false;
+    width:      8em;
+}
+
+#element {
+    padding: 0px 25px;
+}
+#element selected {
+    text-color: rgba ( 0, 0, 0, 100 % );
+    background-color: rgba ( 255, 255, 255, 100 % );
+}
+
