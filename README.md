@@ -1,4 +1,4 @@
 # i3-config-files
 
-![](screen1.jpg)
-![](screen2.jpg)
+![](screen1.png)
+![](screen2.png)
