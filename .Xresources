@@ -1,0 +1,53 @@
+! Appearance
+urxvt.termName: rxvt-unicode
+urxvt.scrollBar: false
+urxvt.background: black
+urxvt.foreground: white
+!! Font prefferenes
+! urxvt.font: xft:DejaVu Sans Mono:style=Bold:pixelsize=13
+! urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:weight=bold
+urxvt.font: xft:MesloLGS NF:style=Bold:pixelsize=14
+! urxvt.font: xft:MesloLGS NF:style=Regular:pixelsize=15
+urxvt.letterSpace: -1
+!! Larger history limit
+urxvt.saveLines: 1000000
+urxvt.transparent: true
+urxvt.shading: 55
+urxvt.blurRadius: 12
+
+!! Perl extensions
+urxvt.perl-ext-common: default,matcher,font-size
+!! Open urls in browser with Control-Click
+urxvt.urlLauncher: /usr/bin/firefox
+urxvt.matcher.button: C1
+!! Change font size on Control-Plus/Minus
+URxvt.keysym.Control-0x2b: perl:font-size:increase
+URxvt.keysym.Control-0x2d: perl:font-size:decrease
+
+!! Tango color theme
+!! Strange - it matches tango from gnome-terminal, but looks different
+URxvt.color0: rgb:00/00/00
+URxvt.color1: rgb:CC/00/00
+!!URxvt.color2: rgb:4E/9A/06
+URxvt.color2: rgb:f9/f0/76
+URxvt.color3: rgb:C4/A0/00
+URxvt.color4: rgb:34/65/A4
+URxvt.color5: rgb:75/50/7B
+URxvt.color6: rgb:06/98/9A
+URxvt.color7: rgb:D3/D7/CF
+URxvt.color8: rgb:55/57/53
+URxvt.color9: rgb:EF/29/29
+URxvt.color10: rgb:8A/E2/34
+URxvt.color11: rgb:FC/E9/4F
+URxvt.color12: rgb:72/9F/CF
+URxvt.color13: rgb:AD/7F/A8
+URxvt.color14: rgb:34/E2/E2
+URxvt.color15: rgb:EE/EE/EC
+URxvt.colorBD: rgb:ff/ff/ff
+
+!! Copy Paste
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+!! Padding
+URxvt.internalBorder: 20
